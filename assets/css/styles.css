@@ -7,35 +7,31 @@ body {
    
 }
 
+.logo {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
 .navbar-brand {
-    color: rgb(91, 43, 88);
+    color: white;
     font-size: medium;
     font-weight: 300;
 }
 
+.navbar-brand:hover {
+    color:rgb(244, 134, 51) ;
+  }
+  
 .navbar {
+    background-color:rgb(91, 43, 88) ;
     border-top: 2px solid rgb(91, 43, 88);
     border-bottom: 2px solid rgb(91, 43, 88);
 }
 
 .links {
+   
     display: flex;
     justify-content: end;
     
 }
 
-.carousel-item {
-    height: 480px;
-}
-
-.carousel-caption {
-    
-    background-color: rgba(145, 138, 203, 0.7);
-    font-size: 130%;
-    position:sticky;
-    bottom: 10px;
-    width: fit-content;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 20px;
-}
